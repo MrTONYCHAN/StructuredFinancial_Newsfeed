@@ -16,6 +16,17 @@ import matplotlib
 
 st.title("Structured Financial Newsfeed :zap: Mr.TONYCHAN")
 
+from playsound import playsound
+from threading import Thread
+ 
+def play_music():
+    playsound('TheImpro.mp3')
+ 
+# Play Music on Separate Thread (in background)
+music_thread = Thread(target=play_music)
+music_thread.start()
+
+
 
 def extract_text_from_rss(rss_link):
     """
