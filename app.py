@@ -6,10 +6,10 @@ import pandas as pd
 import requests
 
 
-#from spacy import displacy
+from spacy import displacy
 from bs4 import BeautifulSoup, FeatureNotFound
 import yfinance as yf
-# from spacy_streamlit import visualize_ner
+#from spacy_streamlit import visualize_ner
 import matplotlib
 
 
