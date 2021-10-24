@@ -3,7 +3,7 @@
 import pandas as pd
 import requests
 #import spacy_streamlit
-import streamlit as st
+import spacy_streamlit as st
 import os
 
 from spacy import displacy
