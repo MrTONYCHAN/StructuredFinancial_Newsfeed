@@ -2,7 +2,7 @@
 #!pip install spacy-streamlit
 import pandas as pd
 import requests
-#import spacy_streamlit
+import spacy_streamlit
 import spacy_streamlit as st
 import os
 
