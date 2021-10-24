@@ -1,10 +1,10 @@
+import streamlit as st 
+import os
 #pip install spacy-streamlit
 #!pip install spacy-streamlit
 import pandas as pd
 import requests
-#import spacy_streamlit
-import streamlit as st
-import os
+
 
 from spacy import displacy
 from bs4 import BeautifulSoup, FeatureNotFound
