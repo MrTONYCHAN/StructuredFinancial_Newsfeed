@@ -1,4 +1,5 @@
 #pip install spacy-streamlit
+!pip install spacy-streamlit
 import pandas as pd
 import requests
 import spacy_streamlit
